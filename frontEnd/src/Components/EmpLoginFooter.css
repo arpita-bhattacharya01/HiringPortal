@@ -1,0 +1,120 @@
+.emp-footer {
+  background-color: #f8f9fa;
+  padding: 40px 0 20px;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-section {
+  margin-bottom: 40px;
+}
+
+
+/* .benefits-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.benefits-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.benefits-list li:before {
+  content: "•";
+  color: #1e3a8a;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.buy-now-btn {
+  background-color: #1e3a8a;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.buy-now-btn:hover {
+  background-color: #152c5e;
+}
+
+.sub-users-card p {
+  margin-bottom: 10px;
+}
+
+.naukri-checkbox {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.naukri-checkbox input {
+  margin-right: 10px;
+}
+
+.helpline-number {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e3a8a;
+} */
+
+.footer-links {
+  margin-bottom: 30px;
+}
+
+.footer-links h6 {
+  color: #1e3a8a !important;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links li {
+  /* margin-bottom: 8px; */
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #060912;
+  font-weight: 600;
+}
+
+.copyright {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  text-align: center;
+  color: #1e3a8a ;
+  font-weight: 600;
+}
+
+.copyright p{
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .post-job-card,
+  .sub-users-card,
+  .helpline-card {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    text-align: center;
+  }
+  
+  .footer-links h6 {
+    margin-top: 20px;
+  }
+}

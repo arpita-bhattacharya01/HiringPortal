@@ -1,0 +1,129 @@
+.main-container-popularroles {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.popular-roles-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #fff6f1, #ffffff);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  text-align: left;
+  gap: 2rem; /* space between image and text */
+}
+
+.left-section img {
+  width: 600px; /* adjust as needed */
+  max-width: 100%;
+  height: auto;
+}
+
+.left-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.left-section p {
+  color: #666;
+}
+.Right-text{
+  position: absolute;
+  right: 0;
+}
+
+
+.right-section {
+  flex: 1;
+  min-width: 500px;
+  max-width: 600px;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: 2s ease;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card p {
+  color: #777;
+  font-size: 15px;
+}
+
+.nav-btn {
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.left-btn {
+  margin-right: 0.5rem;
+}
+
+.right-btn {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .popular-roles-container {
+    flex-direction: column;
+  }
+
+  .right-section {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

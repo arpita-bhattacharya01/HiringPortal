@@ -1,0 +1,31 @@
+.modal-content{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.congrats-icon {
+  width: 60px;
+  height: 60px;
+  font-size: 32px;
+  line-height: 60px;
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.application-progress .progress {
+  background-color: #e9ecef;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.application-progress .progress-bar {
+  background-color: #0d6efd; /* Bootstrap primary color */
+  transition: width 0.4s ease;
+  border-radius: 50px;
+}
+.apply-btn.disabled,
+.btn-outline.disabled {
+  background-color: #ccc;
+  pointer-events: none;
+  cursor: disabled;
+}

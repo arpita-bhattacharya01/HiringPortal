@@ -1,0 +1,66 @@
+.featured-container {
+  width: 20%;
+  font-family: Arial, sans-serif;
+  top: 65px;         /* Offset from top */
+  left: 0; 
+  /* margin-top: 40px;  */
+         /* Stick to the left */
+  
+}
+
+.card-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: white; /* Ensure it's not transparent */
+  /* position: fixed; */
+  width: 250px;
+  z-index: -1;
+}
+.card-fixed-1{
+   top: 14%;
+}
+.card-fixed-2{
+   top: 50%;
+}
+
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.company-logos img {
+  height: 30px;
+  width: auto;
+}
+
+.naukri-logo {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.naukri-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.naukri-description {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.know-more-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .featured-container {
+    display: none;
+  }
+}

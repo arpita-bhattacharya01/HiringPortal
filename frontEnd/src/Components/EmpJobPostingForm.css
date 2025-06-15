@@ -1,0 +1,13 @@
+.job-form .btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+.job-form .btn-close:hover {
+  opacity: 1;
+}
+
+.job-form .badge {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+}

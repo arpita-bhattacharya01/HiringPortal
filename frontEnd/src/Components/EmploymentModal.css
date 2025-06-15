@@ -1,0 +1,138 @@
+ .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background: white;
+  padding: 20px;
+  /* border-radius: 8px; */
+  width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+} 
+
+.cancel-btn,
+.save-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.save-btn {
+  background: #0057ff;
+  color: white;
+}
+
+.demo-fulltime{
+  /* border: 2px solid black; */
+  width: 220px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* Modal custom rounded corners */
+.modal-content {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* Adjust spacing for form groups */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Ensure dropdowns have consistent border-radius */
+.form-select,
+.form-control {
+  border-radius: 10px;
+  min-height: 42px;
+}
+
+/* Radio buttons label spacing */
+.form-check-inline {
+  margin-right: 15px;
+}
+
+/* Section label spacing */
+form .form-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Improve text area appearance */
+textarea.form-control {
+  border-radius: 10px;
+  resize: none;
+}
+
+/* Button styles */
+.modal-footer .btn {
+  min-width: 100px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .modal-content {
+    padding: 10px 15px;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .modal-footer .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+.notice-period-option{
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 5px;
+  width: 90%;
+  margin-top: 23px;
+}
+
+.employment-modal-input-box{
+  margin-top: 23px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+/* .employment-modal-lable{
+  margin-top: 30px;
+} */
+
+.employment-modal-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}

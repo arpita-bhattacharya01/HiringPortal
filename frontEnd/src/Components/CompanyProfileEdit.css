@@ -1,0 +1,166 @@
+.account-container {
+  max-width: 1140px;
+   padding: 30px;
+  font-family: Arial, sans-serif;
+  /* border: 1px solid black; */
+  margin: 0 100px;
+  /* margin: 0 120px; */
+  
+}
+
+.account-header {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.account-subheader {
+  margin-top: 5px;
+  font-size: 28px;
+  color: #555;
+}
+
+.account-mandatory-note {
+  color: red;
+  text-align: right;
+  margin-top: -30px;
+}
+
+.account-section {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.account-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.account-edit-link {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.account-row {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.account-label {
+  width: 180px;
+  font-weight: bold;
+  color: #555;
+}
+
+.account-value {
+  color: #333;
+}
+
+.account-select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+}
+
+.account-mobile-inputs {
+  display: flex;
+  gap: 5px;
+}
+
+.account-code-input {
+  width: 50px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.account-number-input {
+  width: 150px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.account-save-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.account-cancel-btn {
+  background-color: #ccc;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.company-details-container {
+  margin: 0 100px;
+  font-family: Arial, sans-serif;
+}
+
+.company-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.edit-link {
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.company-details-view div {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.company-details-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.company-details-form input,
+.company-details-form select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.company-details-buttons {
+  margin-top: 20px;
+}
+
+.company-details-buttons button {
+  margin-right: 10px;
+  padding: 6px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.company-details-buttons button:last-child {
+  background-color: #6c757d;
+}
+
+
+
+@media screen and (min-width: 1200px)
+     {
+    .account-container{
+        max-width: 1140px;
+    }
+}

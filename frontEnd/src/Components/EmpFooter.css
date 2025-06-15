@@ -1,0 +1,70 @@
+.employers-footer {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 40px 0 20px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.employers-footer-title {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.employers-footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.employers-footer-list li {
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #8b99a3;
+}
+
+.employers-footer-list li a{
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #8b99a3;
+}
+
+.employers-footer-sales p {
+  margin: 4px 0 12px;
+  font-size: 14px;
+  color: #8b99a3;
+  text-align: left;
+  line-height: 30px;
+}
+
+.employers-footer-sales strong {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.employers-footer-bottom {
+  border-top: 1px solid #334155;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.employers-footer-copy {
+  margin-top: 10px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.employers-footer-social a {
+  color: #ffffff;
+  background: #1e293b;
+  padding: 8px 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+.employers-footer-icon{
+  font-size: 16px;
+}

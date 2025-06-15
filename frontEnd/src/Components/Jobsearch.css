@@ -1,0 +1,74 @@
+/* Job Header Section */
+.search-job-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+  height: 20vh;
+  /* margin-top: 7rem; */
+  gap: 0.5rem;
+  font-family: sans-serif;
+  background-color: #f8f9fa; /* optional light background */
+}
+
+.job-header h1,
+.job-header h5 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Search Bar Container */
+.search {
+  max-width: 900px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Input Fields */
+.custom-input {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 8px 12px;
+  font-size: 14px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+/* Custom Input Focus */
+.custom-input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Dropdown Select */
+select {
+  /* border: none !important; */
+  outline: none !important;
+  /* background: transparent; */
+  font-size: 14px;
+  padding: 4px;
+}
+
+/* Bootstrap Divider (.vr) Adjustments if needed */
+.vr {
+  height: 20px;
+  border-left: 1px solid #ccc;
+}
+
+/* Search Button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-weight: 500;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

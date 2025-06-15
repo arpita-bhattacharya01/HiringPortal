@@ -1,0 +1,67 @@
+
+   .labelling {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 1rem; /* or 16px */
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.page-wrapper {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  background: #e0f0ff;
+  color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* .labelling {
+  font-weight: 500;
+  font-size: 0.9rem;
+} */
+
+.form-control,
+.form-select {
+  font-size: 0.95rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.footer-blue-small {
+  background-color: #003366;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 576px) {
+  .form-card {
+    padding: 1.2rem;
+  }
+
+  .labelling {
+    font-size: 0.85rem;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 0.88rem;
+  }
+}

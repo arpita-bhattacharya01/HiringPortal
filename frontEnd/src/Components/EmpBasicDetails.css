@@ -1,0 +1,66 @@
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #ffffff, #f4f7fe);
+}
+
+.form-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #e6f0ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.step-active {
+  color: #0b6fff;
+}
+
+.step-text {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-blue-small {
+  background-color: #002d62;
+  font-size: 14px;
+}
+.menu-popup {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-send-otp {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  /* padding: 5px 15px; */
+  border-radius: 4px;
+  width: 22%;
+}
+.btn-send-otp:hover {
+  background-color: #0056b3;
+}
+
+.btn-verify-otp {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  /* padding: 5px 15px; */
+  border-radius: 4px;
+  width: 23%;
+}
+
+.btn-verify-otp:hover {
+  background-color: #1e7e34;
+}

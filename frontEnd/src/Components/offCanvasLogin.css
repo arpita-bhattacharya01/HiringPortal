@@ -1,0 +1,131 @@
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.profile-img-wrapper {
+  position: relative;
+}
+
+.profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #0d6efd;
+}
+.profile-progress {
+  position: absolute;
+  bottom: -20px;
+  left: 55%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.profile-name {
+  font-weight: 600;
+  margin: 0;
+}
+
+.profile-edu {
+  font-size: 13px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.profile-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.performance-section {
+  margin-top: 16px;
+}
+
+.performance-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.performance-sub {
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.performance-cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f7ff;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.performance-card {
+  text-align: center;
+  flex: 1;
+}
+
+.performance-value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.dot {
+  color: red;
+  font-size: 12px;
+  vertical-align: super;
+}
+
+.performance-label {
+  font-size: 14px;
+  color: #212529;
+  margin-top: 4px;
+}
+
+.view-all-link {
+  font-size: 13px;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  font-size: 14px;
+  color: #212529;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-list li i {
+  margin-right: 8px;
+  color: #6c757d;
+}
+
+
